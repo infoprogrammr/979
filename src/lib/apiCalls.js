@@ -1,5 +1,7 @@
 const marvelURL = 'https://gateway.marvel.com/v1/public/',
-  apiKey = `apikey=cf898c59872e5ad46022efba2a11cdaf`;
+  //To fix this challenge  add the API key value OR replace the line with commeted line.    
+  //apiKey = `apikey=cf898c59872e5ad46022efba2a11cdaf`;
+  apiKey = ``;
 
 const getMarvelCharacters = (options) => {
   const {
