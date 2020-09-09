@@ -30,11 +30,13 @@ class App extends Component {
   }
 
   changePage = (page) => {
+    /* UNCOMMENT THIS BLOCK TO PASS THE CHALLENGE
     if (page !== this.state.page) {
       this.search({
         page,
       });
     }
+    */
   }
 
   nextPages = (maxPage) => {
